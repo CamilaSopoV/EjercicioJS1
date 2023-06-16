@@ -3,13 +3,29 @@
 //Topping KitKat= $15
 //Topping brownie= $20
 
-let helado = prompt("Solicite su helado");
-let sinTopping = prompt ("50")
-let toppingOreo = prompt("10");
-let toppingKitKat = prompt("15");
-let toppingBrownie = prompt("20");
+let topping = prompt("Escribe el topping que deseas agregar (usa solamente minúscula)");
+let helado = 50;
+let precio = helado;
 
-if(precioHelado == Oreo){alert
-
+if (topping == "oreo"){
+    precio = precio + 10
+    alert("paga por tu helado: " + precio);
 }
-else{alert("no tenemos este topping, lo sentimos")}
+
+else if (topping == "kitkat"){
+    precio = precio + 15
+    alert("paga por tu helado: " + precio);
+}
+
+else if (topping == "brownie"){
+    precio = precio + 20
+    alert("paga por tu helado: " + precio); }
+
+else if (topping == "ninguno"){
+    alert("paga por tu helado: " + precio); }
+
+else{
+    alert("no tenemos este topping, lo sentimos");
+    alert("paga por tu helado: " + precio);
+}
+
