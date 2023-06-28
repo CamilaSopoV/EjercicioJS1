@@ -1,4 +1,4 @@
-let programa = prompt ("¿Qué carrera te gustaría estudiar?")
+let programa = prompt ("¿Qué programa te gustaría estudiar?")
 
 let costoTotal;
 let costoMes;
